@@ -6,11 +6,10 @@ tags: tay
 categories: tay2
 top: true
 ---
-![img](https://www.ruanyifeng.com/blogimg/asset/2015/bg2015071004.png)
+![639902](taylor/639902.jpg)
 
 
 <!-- more -->
 
 # 泰美勒
 
-![639902](taylor/639902.jpg)
