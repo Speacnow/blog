@@ -12,14 +12,13 @@ hexo的变态引入图片方式就不用多说了吧，typora作为当前最优�
 偏好设置 --> 图像 --> 插入图片时..
 选择复制到指定路径 选择./${filename}
 # 设置hexo
-1. 添加库：npm install --save-dev hexo-typora-image
-npm 官网 https://www.npmjs.com/package/hexo-typora-image?activeTab=readme
-2. 设置post.md的 front matter模板
-<...>
+1. 添加库：npm install hexo-typora-img
+npm 官网 https://www.npmjs.com/package/hexo-typora-img
+2. 设置scaffolds文件夹中的post.md的front matter模板，添加：
 typora-copy-images-to: {{ title }}
 3. 设置_config.yml 
 post_asset_folder: true
-4. 解决首页不加载图片的问题
+4. 解决首页不加载图片的问题,设置_config.yml 
 marked:
   prependRoot: true
   postAsset: true
